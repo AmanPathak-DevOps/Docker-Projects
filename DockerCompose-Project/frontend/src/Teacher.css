@@ -1,0 +1,110 @@
+/* Teacher.css */
+
+.Teacher-container {
+    background-image: url('assets/Student.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%);
+  }
+  
+  .content {
+    text-align: left;
+    color: #000000;
+    margin-left: 200px;
+  }
+
+  div .teacher-details {
+      /* margin-left: 100px; */
+      color: #fff;
+      margin-top: 150px;
+      border-radius: 50px; 
+      position: absolute; top: 0px; right: 200px;/* Adjust the margin value as needed */
+      font-size: 24px;
+      background: -webkit-linear-gradient(#8b6b8f, #a2a3df);
+    -webkit-text-fill-color: black;
+      color: transparent;
+      text-align: center;
+      display: inline-block;
+      padding: 10px 20px;
+      -webkit-box-decoration-break: clone;
+      box-decoration-break: clone;
+      background-color: white;
+      border-radius: 10px;
+  }
+  
+  /* Style for "Teacher Details" text */
+  .content h2 {
+    margin-right: 50px; /* Adjust the margin to center with text fields */
+    background-color: white;
+    margin-left: 200px;
+    margin-top: 300px;
+  }
+
+  .store-teacher-details {
+    font-size: 24px;
+    background: -webkit-linear-gradient(#ffeb7c, #297eff);
+  -webkit-text-fill-color: black;
+    color: transparent;
+    display: inline-block;
+    padding: 10px 20px;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 100px;
+  }
+  
+  /* Style for text labels */
+  .form-group label {
+    color: #000000;
+    background-color: #b1ff9d;
+    border-radius: 10px;
+    margin-right: 10px; /* Add spacing between labels and input fields */
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  
+  /* Style for text fields */
+  .form-group input[type="text"] {
+    margin-bottom: 10px; /* Adjust the value to control the spacing */
+    width: 100%; /* Increase text field size to 1.5x */
+    border-radius: 10px; /* Add curved border to text fields */
+    padding: 10px; /* Add some padding for better appearance */
+    border: none; /* Remove default borders */
+    outline: none; /* Remove focus outline */
+    font-weight: bold; /* Make text bold */
+    font-family: 'Arial', sans-serif; /* Use a text-style font */
+    margin-top: 5px;
+  }
+  
+  /* Style for "Submit" button */
+  .form-group button[type="submit"] {
+    background-color: #ff9800;
+    color: #fff;
+    padding: 12.5px 25px; /* Make the button 1.25x bigger */
+    border: none;
+    cursor: pointer;
+    /* text-align: right; */
+    margin-top: 20px; /* Add spacing between the last text field and the button */
+    /* margin-left: 100px; Move the button slightly to the right */
+    /* margin-right: 50px; */
+    border-radius: 10px; /* Add curved border to the button */
+  }
+  
+  .form-group:hover,
+.form-group:hover {
+  transform: scale(1.1); /* Increase the button size on hover */
+  transition: transform 0.2s ease-in-out; /* Add a smooth transition effect */
+}
+
+  /* Rest of your CSS styles for the Teacher component */
+  
